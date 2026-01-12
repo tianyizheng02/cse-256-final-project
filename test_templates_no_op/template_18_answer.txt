@@ -1,0 +1,8 @@
+We need to use the information that {name} makes a {x} egg omelet every morning for breakfast because this tells us how many eggs she eats per day.
+We don't need to use the information that she gives away {z} dozen eggs per week because she doesn't eat those eggs.
+We need use the information of {y} weeks because this problem wants us to determine how many eggs she eats during that period.
+
+She eats {x} eggs every day and there are 7 days in a week so she eats {x}*7 = {x * 7} eggs a week
+After {y} weeks she will have eaten {y}*{x * 7} = {x * y * 7} eggs
+There are 12 eggs in 1 dozen and she'll eat {x * y * 7} eggs so that's {x * y * 7}/12 = {ans} dozen eggs
+#### {ans}

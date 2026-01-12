@@ -1,0 +1,8 @@
+We need to use the information that the merchant is choosing between purchasing {things1} worth ${x} and purchasing {things2} worth ${y} because we first need to determine the size of his initial purchase in order to determine his potential profit for each choice.
+We need to use information of the market growth rates of {z / 10}% and {w / 10}% in order to determine his potential profit for each choice.
+We don't need to use the information that the current market growth rates are double those of last {unit} because we only care about determining the merchant's profit for this {unit}.
+
+If he purchases {things1}, he will make a profit of {z / 10}% which is ${x}*({z / 10}/100) = ${int(profit1)}
+If he purchases {things2}, he will make a profit of {w / 10}% which is ${y}*({w / 10}/100) = ${int(profit2)}
+If he wants to maximize profit, since ${int(ans)} > ${int(other)}, he will choose to purchase {things3}, thereby making a profit of ${int(ans)}
+#### {int(ans)}

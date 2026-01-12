@@ -1,0 +1,8 @@
+We need to use the information that {name} gives each of her {bird}s {x} cups of feed in order to determine the total amount of feed that she gives her {bird}s every day.
+We need to use the information that {name} gives her {bird}s {y} cups of feed in the morning and {z} cups in the afternoon because these amounts count toward the total amount of feed that she gives to her {bird}s that day.
+We don't need to use the information that her {bird}s will need {v} times the current amount of feed when they grow older because we only care about how much feed they need in the present.
+We need to use the information that {name}'s flock has {w} {bird}s in order to determine the total amount of feed that she gives to her {bird}s every day.
+
+If each {bird} eats {x} cups of feed per day, then for {w} {bird}s they would need {x}*{w}={x * w} cups of feed per day.
+If she feeds the flock {y} cups of feed in the morning, and {z} cups in the afternoon, then the final meal would require {x * w}-{y}-{z}={ans} cups of chicken feed.
+#### {ans}

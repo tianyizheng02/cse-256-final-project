@@ -1,0 +1,3 @@
+He sprints {x}*{y}={x * y} times
+So he runs {x * y}*{z}={ans} meters
+#### {ans}

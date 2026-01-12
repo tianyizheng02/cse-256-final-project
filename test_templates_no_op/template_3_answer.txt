@@ -1,0 +1,7 @@
+We need to use the information that {name} runs sprints {y} times per week and runs {x} sprints each time in order to determine how many sprints he runs per week.
+We need to use the information of {z} {unit} per sprint in order to determine the distance he runs per week from the number of sprints.
+We don't need to use the information that he gets tired halfway and needs to stop because that doesn't change the distance he runs in each sprint.
+
+He sprints {x}*{y}={x * y} times
+So he runs {x * y}*{z}={ans} meters
+#### {ans}

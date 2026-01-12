@@ -1,0 +1,10 @@
+We need to use the information of {name}'s file being {x} GB and her download speed being {y} GB/minute because these details determine the uninterrupted download time.
+We need to use the information that {computer} interrupts her download {z}% of the way through in order to determine how much time she has already spent downloading the file.
+We need to use the information of the updates taking {w} minutes because this time contributes to the total time {name} spends downloading the file.
+We don't need to use the information that her download speed would increase by {u} GB/minute if she upgrades her WiFi because we only care about determining how long it takes for {name} to download the file right now.
+
+First find how many gigabytes are in {z}% of the file: {x} GB * {z}% = {int(v)} GB
+Then divide that number by the download rate to find the time until {computer} restarts: {int(v)} GB / {y} GB/minute = {int(v / y)} minutes
+Then find the time to download the whole file after the restart: {x} GB / {y} GB/minute = {int(x / y)} minutes
+Then add the time to download {z}% of the file, to download the whole file, and to wait for {computer} to update: {int(v / y)} minutes + {int(x / y)} minutes + {w} minutes = {ans} minutes
+#### {ans}

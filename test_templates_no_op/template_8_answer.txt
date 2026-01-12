@@ -1,0 +1,13 @@
+We need to use the information that {name} drives for {x} hours at {y} mph in order to determine how far he is from home when he decides to turn around.
+We need to use the information that he wants to get home in {z} hours because we want to determine how far from home he is after those {z} hours have passed.
+We need to use the information that he spends {w} hours in standstill traffic, the next half-hour driving at {v} mph, and the remaining time driving at {u} mph in order to determine how far he travels during those {z} hours.
+We don't need to use the information that he drives an additional {t} miles to use a rest stop because this occurs after the {z} hours have already passed.
+
+When he turned around he was {x}*{y}={x * y} miles from home
+He was only able to drive {z}-{w}={z - w} hours in the first {z} hours
+In half an hour he goes {v}*.5={int(v / 2)} miles
+He then drives another {z - w}-.5={z - w - .5} hours
+In that time he goes {u}*{z - w - .5}={int(u * (z - w - .5))} miles
+So he drove {int(u * (z - w - .5))}+{v / 2}={int(u * (z - w - .5) + v / 2)} miles
+So he is {x * y}-{int(u * (z - w - .5) + v / 2)}={ans} miles away from home
+#### {ans}

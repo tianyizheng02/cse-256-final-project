@@ -1,0 +1,17 @@
+{city1} has {x} times as many {things} as {city2}. {city2} has {y} times as many {things} as {city3}. How many {things} do {city1}, {city2}, and {city3} have together if {city3} has {z} {things} and if {city1} has twice as many {things} as it did last year?
+
+#variables:
+- city1 = sample(["Seattle", "Toulouse", "Charleston", "San Diego", "Detroit", "Hanover", "Toronto"])
+- city2 = sample(["Seattle", "Toulouse", "Charleston", "San Diego", "Detroit", "Hanover", "Toronto"])
+- city3 = sample(["Seattle", "Toulouse", "Charleston", "San Diego", "Detroit", "Hanover", "Toronto"])
+- things = sample(["sheep", "horses", "monkeys", "ants", "trees", "people", "trains", "computers", "rivers", "bridges", "cars"])
+- x = range(2, 100)
+- y = range(2, 100)
+- z = range(0, 100)
+- ans = range(0, 10000000)
+
+#conditions:
+- city1 != city2
+- city2 != city3
+- city1 != city3
+- ans == z + y * z + x * y * z

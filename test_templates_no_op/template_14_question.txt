@@ -1,0 +1,20 @@
+In a dance class of {x} students, {y}% enrolled in {style1} dance, {z}% of the remaining enrolled in {style2} dance, and the rest enrolled in {style3} dance. Altogether, the class has half as many students as last year. What percentage of the entire students enrolled in {style3} dance?
+
+#variables:
+- x = range(0, 100)
+- y = range(0, 100)
+- z = range(0, 100)
+- w = range(0, 100)
+- v = range(0, 100)
+- style1 = sample(["contemporary", "jazz", "hip-hop", "interpretive", "ballroom", "square", "line", "tap"])
+- style2 = sample(["contemporary", "jazz", "hip-hop", "interpretive", "ballroom", "square", "line", "tap"])
+- style3 = sample(["contemporary", "jazz", "hip-hop", "interpretive", "ballroom", "square", "line", "tap"])
+- ans = range(0, 100)
+
+#conditions:
+- style1 != style2
+- style2 != style3
+- style1 != style3
+- (x * y) % 100 == 0
+- (x * (1 - y / 100) * z) % 100 == 0
+- ans == (100 - y) * (1 - z / 100)

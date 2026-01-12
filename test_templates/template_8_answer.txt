@@ -1,0 +1,8 @@
+When he turned around he was {x}*{y}={x * y} miles from home
+He was only able to drive {z}-{w}={z - w} hours in the first {z} hours
+In half an hour he goes {v}*.5={int(v / 2)} miles
+He then drives another {z - w}-.5={z - w - .5} hours
+In that time he goes {u}*{z - w - .5}={int(u * (z - w - .5))} miles
+So he drove {int(u * (z - w - .5))}+{v / 2}={int(u * (z - w - .5) + v / 2)} miles
+So he is {x * y}-{int(u * (z - w - .5) + v / 2)}={ans} miles away from home
+#### {ans}

@@ -1,0 +1,14 @@
+Every day, {name} feeds each of her {bird}s {x} cups of mixed {bird} feed, containing seeds, mealworms and vegetables to help keep them healthy.  She gives the {bird}s their feed in three separate meals. In the morning, she gives her flock of {bird}s {y} cups of feed.  In the afternoon, she gives her {bird}s another {z} cups of feed.  How many cups of feed does she need to give her {bird}s in the final meal of the day if the size of {name}'s flock is {w} {bird}s?
+
+#variables:
+- name = sample(names)
+- bird = sample(["duck", "chicken", "hen", "quail"])
+- x = range(2, 10)
+- y = range(2, 100)
+- z = range(2, 100)
+- w = range(2, 100)
+- ans = range(0, 1000)
+
+#conditions:
+- y + z <= x * w
+- y + z + ans == x * w

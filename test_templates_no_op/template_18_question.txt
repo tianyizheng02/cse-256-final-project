@@ -1,0 +1,12 @@
+{name} makes a {x} egg omelet every morning for breakfast.  She also gives away {z} dozen eggs every week to her friends.  How many dozens of eggs will she eat in {y} weeks?
+
+#variables:
+- name = sample(names)
+- x = range(1, 100)
+- y = range(2, 100)
+- z = range(1, 10)
+- ans = range(14, 70000)
+
+#conditions:
+- (x * y) % 12 == 0
+- ans == x * y * 7 / 12

@@ -1,0 +1,18 @@
+{name} is planting a {fruit} tree. The last time he tried to plant a {fruit} tree, the tree died {v} {time}s after planting and he didn't earn any money from it. The tree will cost ${x} to plant. Each {time} it will grow {y} {fruit}s, which he can sell for ${z / 100} each. It costs ${w} a {time} to water and feed the tree. How many {time}s will it take before he starts earning money on the {fruit} tree?
+
+#variables:
+- name = sample(names)
+- fruit = sample(["lemon", "orange", "apple", "pear", "plum", "lime", "pomegranate", "apricot"])
+- time = sample(["year", "month", "week", "day"])
+- x = range(0, 100)
+- y = range(2, 100)
+- z = range(0, 10000)
+- w = range(0, 100)
+- v = range(2, 100)
+- ans = range(0, 10000)
+
+#conditions:
+- (y * z) % 100 == 0
+- y * z / 100 > w
+- x % (y * z / 100 - w) == 0
+- (ans - 1) *  (y * z / 100 - w) == x

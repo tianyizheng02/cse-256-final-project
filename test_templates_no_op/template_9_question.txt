@@ -1,0 +1,15 @@
+{name}'s rate per hour for the first {x} hours she works each week is ${y}. She also receives an overtime pay of {z / 100} times her regular hourly rate, and she will also receive a ${v} bonus later this year. If {name} worked for {w} hours this week, how much are her earnings for this week?
+
+#variables:
+- name = sample(names)
+- x = range(0, 100)
+- y = range(0, 100)
+- z = range(101, 1000)
+- w = range(0, 100)
+- v = range(1000, 10000)
+- ans = range(0, 10000)
+
+#conditions:
+- (y * z) % 100 == 0
+- w >= x
+- ans = y * x + y * z / 100 * (w - x)

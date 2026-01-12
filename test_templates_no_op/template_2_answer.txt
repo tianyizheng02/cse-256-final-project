@@ -1,0 +1,9 @@
+We need to use the information that {name} bought the house for ${x} and spent ${y} on repairs because these amounts factor into his costs.
+We need to use the information of {z}% increase in value because this determines his profit.
+We don't need to use the information that he saved ${w} by doing repairs himself because we only care about determining how much profit he actually made, not how much profit he would've made if he didn't do repairs himself.
+
+The cost of the house and repairs came out to {x}+{y}=${x + y}
+He increased the value of the house by {x}*{z / 100}={int(x * z / 100)}
+So the new value of the house is {int(x * z / 100)}+{x}=${int(x * z / 100 + x)}
+So he made a profit of {int(x * z / 100 + x)}-{x + y}=${int(ans)}
+#### {int(ans)}

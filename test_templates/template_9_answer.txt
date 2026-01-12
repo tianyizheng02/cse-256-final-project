@@ -1,0 +1,6 @@
+{name} is entitled to {w} - {x} = {w - x} hours overtime pay.
+Her hourly rate for the overtime pay is ${y} x {z / 100} = ${int(y * z / 100)}.
+So, {name} will receive ${int(y * z / 100)} x {w - x} = ${int(y * z / 100 * (w - x))} for overtime pay.
+Her regular weekly earning is ${y} x {x} = ${y * x}.
+Thus, {name} will receive a total of ${y * x} + ${int(y * z / 100 * (w - x))} = ${ans} for this week's work.
+#### {ans}

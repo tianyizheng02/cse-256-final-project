@@ -1,0 +1,20 @@
+{name} drives for {x} hours at a speed of {y} mph and then turns around because he realizes he forgot something very important at home.  He tries to get home in {z} hours but spends the first {w} hours in standstill traffic.  He spends the next half-hour driving at a speed of {v} mph, before being able to drive the remaining time of the {z} hours going at {u} mph.  After those {z} hours have passed, he realizes that he needs to use the restroom and drives an addition {t} miles to use a rest stop.  How far is he from home at the end of those {z} hours?
+
+#variables:
+- name = sample(names)
+- x = range(0, 10)
+- y = range(1, 100)
+- z = range(0, 10)
+- w = range(0, 10)
+- v = range(0, 100)
+- u = range(0, 100)
+- t = range(1, 100)
+- ans = range(0, 10000)
+
+#conditions:
+- z > w
+- z < 2 * w
+- v % 2 == 0
+- u % 2 == 0
+- x * y >= u * (z - w - .5) + v / 2
+- ans == x * y - u * (z - w - .5) + v / 2

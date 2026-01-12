@@ -1,0 +1,19 @@
+{name} is a door-to-door saleswoman. She sold a third of her {things} at the {color1} house, {x} more to the {color2} house, and half of what was left at the {color3} house. If {name} has {y} {things} left and she plans to receive {z} more {things} later this week from her company to sell, how many did she start with?
+
+#variables:
+- name = sample(names)
+- things = sample(["vacuum cleaners", "refrigerators", "microwaves", "blenders", "food processors", "knives", "dishwashers"])
+- color1 = sample(["blue", "red", "yellow", "green", "orange", "purple", "black", "brown", "gray", "white"])
+- color2 = sample(["blue", "red", "yellow", "green", "orange", "purple", "black", "brown", "gray", "white"])
+- color3 = sample(["blue", "red", "yellow", "green", "orange", "purple", "black", "brown", "gray", "white"])
+- x = range(0, 100)
+- y = range(0, 100)
+- z = range(1, 100)
+- ans = range(0, 1000)
+
+#conditions:
+- color1 != color2
+- color2 != color3
+- color1 != color3
+- x % 2 == 0
+- 2 * ans == 3 * (y * 2 + x)

@@ -1,0 +1,10 @@
+We need to use the information that {name} bought {pastry1}, {pastry2}, and {pastry3} in order to determine the cost of the pastries that she bought.
+We need to use the information of {x} dozen, {z} dozen, and {v} dozen because those are the quantities of {pastry1}, {pastry2}, and {pastry3} that she bought, respectively.
+We need to use the information of ${y} per dozen, ${w} per dozen, and ${u} per dozen because those are the costs per dozen for {pastry1}, {pastry2}, and {pastry3}, respectively.
+We don't need to use the information that {t} dozen {pastry4} cost ${s} per dozen because {name} didn't buy any {pastry4}.
+
+The total charge for the {pastry1} was {x} x ${y} = ${x * y}.
+The total charge for the {pastry2} was {z} x ${w} = ${z * w}.
+The total charge for the {pastry3} was {v} x ${u} = ${v * u}.
+Therefore the total amount {name} paid for the pastries was ${x * y} + ${z * w} + ${v * u} = ${ans}.
+#### {ans}

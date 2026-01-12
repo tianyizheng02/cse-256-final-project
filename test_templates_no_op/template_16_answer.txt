@@ -1,0 +1,8 @@
+We need to use the information that the {vehicle}s travel westward for {x} {units} and northward for {y} {units} in order to determine how far each {vehicle} traveled altogether.
+We don't need to use the information that the {vehicle}s travel back to their starting location because that happens later on, after the two days have already passed.
+
+On the first day, the {vehicle}s covered 2 {vehicle}s * {x} {units}/{vehicle} = {2 * x} {units} together.
+They also covered {y} {units}/{vehicle} * 2 {vehicle}s = {y * 2} {units} together on the second day.
+The combined distance the two {vehicle}s covered in the two days is {y * 2} {units} + {2 * x} {units} = {2 * (x + y)} {units}
+The average distance for the two days is {2 * (x + y)} {units} / 2 {vehicle}s = {ans} {units}/{vehicle}
+#### {ans}

@@ -1,0 +1,13 @@
+A {clothing} takes {x} bolts of {color1} fiber and half that much {color2} fiber, but the manufacturer is completely out of {color2} fiber.  How many bolts in total does it take?
+
+#variables:
+- clothing = sample(["robe", "gown", "dress", "coat", "jacket"])
+- color1 = sample(["blue", "red", "yellow", "green", "orange", "purple", "black", "brown", "gray", "white"])
+- color2 = sample(["blue", "red", "yellow", "green", "orange", "purple", "black", "brown", "gray", "white"])
+- x = range(2, 100)
+- ans = range(2, 150)
+
+#conditions:
+- color1 != color2
+- x % 2 == 0
+- ans == x + (x / 2)

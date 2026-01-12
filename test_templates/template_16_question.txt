@@ -1,0 +1,12 @@
+Two {vehicle}s leave {city} at the same time. They begin traveling westward, both traveling for {x} {units}. The next day, they travel northwards, covering {y} {units}. What's the distance covered by each {vehicle} in the two days?
+
+#variables:
+- city = sample(["San Rafael", "Seattle", "Detroit", "Kansas City", "Amarillo", "Birmingham", "Pittsburgh"])
+- vehicle = sample(["train", "car", "truck"])
+- units = sample(["miles", "kilometers", "yards", "meters", "feet"])
+- x = range(2, 1000)
+- y = range(2, 1000)
+- ans = range(4, 10000)
+
+#conditions:
+- ans == x + y

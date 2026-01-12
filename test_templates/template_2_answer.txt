@@ -1,0 +1,5 @@
+The cost of the house and repairs came out to {x}+{y}=${x + y}
+He increased the value of the house by {x}*{z / 100}={int(x * z / 100)}
+So the new value of the house is {int(x * z / 100)}+{x}=${int(x * z / 100 + x)}
+So he made a profit of {int(x * z / 100 + x)}-{x + y}=${int(ans)}
+#### {int(ans)}

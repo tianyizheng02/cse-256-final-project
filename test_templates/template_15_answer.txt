@@ -1,0 +1,4 @@
+If he purchases {things1}, he will make a profit of {z / 10}% which is ${x}*({z / 10}/100) = ${int(profit1)}
+If he purchases {things2}, he will make a profit of {w / 10}% which is ${y}*({w / 10}/100) = ${int(profit2)}
+If he wants to maximize profit, since ${int(ans)} > ${int(other)}, he will choose to purchase {things3}, thereby making a profit of ${int(ans)}
+#### {int(ans)}

@@ -1,0 +1,5 @@
+The total charge for the {pastry1} was {x} x ${y} = ${x * y}.
+The total charge for the {pastry2} was {z} x ${w} = ${z * w}.
+The total charge for the {pastry3} was {v} x ${u} = ${v * u}.
+Therefore the total amount {name} paid for the pastries was ${x * y} + ${z * w} + ${v * u} = ${ans}.
+#### {ans}

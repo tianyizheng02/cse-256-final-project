@@ -1,0 +1,5 @@
+First find how many gigabytes are in {z}% of the file: {x} GB * {z}% = {int(v)} GB
+Then divide that number by the download rate to find the time until {computer} restarts: {int(v)} GB / {y} GB/minute = {int(v / y)} minutes
+Then find the time to download the whole file after the restart: {x} GB / {y} GB/minute = {int(x / y)} minutes
+Then add the time to download {z}% of the file, to download the whole file, and to wait for {computer} to update: {int(v / y)} minutes + {int(x / y)} minutes + {w} minutes = {ans} minutes
+#### {ans}

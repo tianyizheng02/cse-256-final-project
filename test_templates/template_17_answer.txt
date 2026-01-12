@@ -1,0 +1,5 @@
+First find the total amount {name} makes per week teaching: ${x}/hour * {w} hours/week = ${x * w}/week
+Then find the total amount {name} makes per week coaching: ${y}/hour * {v} hours/week = ${y * v}/week
+Then add those two amounts to find the total amount {name} makes per week: ${x * w}/week + ${y * v}/week = ${x * w + y * v}/week
+Then multiply that number by the number of weeks {name} works in a year to find her annual salary: ${x * w + y * v}/week * {z} weeks/year = ${ans}
+#### {ans}

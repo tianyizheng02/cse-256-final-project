@@ -1,0 +1,3 @@
+{name} sells {x} - {y} - {z} = {x - y - z} {bird} eggs a day.
+She makes {x - y - z} * {w} = ${ans} every day at the farmer’s market.
+#### {ans}

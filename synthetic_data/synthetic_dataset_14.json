@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Sophia\u2019s quails lay 68 eggs per day. She eats 15 for breakfast every morning and bakes muffins for her friends every day with 10. She sells the remainder at the farmers' market daily for $2 per fresh quail egg. How much in dollars does she make every day at the farmers' market?",
+    "solution": "Sophia sells 68 - 15 - 10 = 43 quail eggs a day.\nShe makes 43 * 2 = $86 every day at the farmer\u2019s market.",
+    "final_answer": "86"
+  },
+  {
+    "question": "A coat takes 68 bolts of yellow fiber and half that much black fiber. How many bolts in total does it take?",
+    "solution": "It takes 68/2=34 bolt of black fiber\nSo the total amount of fabric is 68+34=102 bolts of fabric",
+    "final_answer": "102"
+  },
+  {
+    "question": "David decides to try flipping a house.  He buys a house for $200000 and then puts in $15000 in repairs.  This increased the value of the house by 30%.  How much profit did he make?",
+    "solution": "The cost of the house and repairs came out to 200000+15000=$215000\nHe increased the value of the house by 200000*0.3=60000\nSo the new value of the house is 60000+200000=$260000\nSo he made a profit of 260000-215000=$45000",
+    "final_answer": "45000"
+  },
+  {
+    "question": "Lucas decides to run 6 sprints 5 times a week. He runs 14 yards each sprint. How many total yards does he run a week?",
+    "solution": "He sprints 6*5=30 times\nSo he runs 30*14=420 meters",
+    "final_answer": "420"
+  },
+  {
+    "question": "Every day, Emma feeds each of her ducks 6 cups of mixed duck feed, containing seeds, mealworms and vegetables to help keep them healthy.  She gives the ducks their feed in three separate meals. In the morning, she gives her flock of ducks 50 cups of feed.  In the afternoon, she gives her ducks another 100 cups of feed.  How many cups of feed does she need to give her ducks in the final meal of the day if the size of Emma's flock is 28 ducks?",
+    "solution": "If each duck eats 6 cups of feed per day, then for 28 ducks they would need 6*28=168 cups of feed per day.\nIf she feeds the flock 50 cups of feed in the morning, and 100 cups in the afternoon, then the final meal would require 168-50-100=18 cups of chicken feed.",
+    "final_answer": "18"
+  },
+  {
+    "question": "Michael went to the store to buy glasses for his new apartment. One glass costs $25, but every second glass costs only 40% of the price. Michael wants to buy 8 glasses. How much does he need to pay for them?",
+    "solution": "The discount price of one glass is 40/100 * 25 = $10.\nIf every second glass is cheaper, that means Michael is going to buy 8 / 2 = 4 cheaper glasses.\nSo for the cheaper glasses, Michael is going to pay 4 * 10 = $40.\nAnd for the regular-priced glasses, Michael will pay 4 * 25 = $100.\nSo in total Michael needs to pay 40 + 100 = $140 for the glasses he wants to buy.",
+    "final_answer": "140"
+  },
+  {
+    "question": "Charleston has 75 times as many ants as Detroit. Detroit has 72 times as many ants as San Diego. How many ants do Charleston, Detroit, and San Diego have together if San Diego has 15 ants?",
+    "solution": "If San Diego has 15 ants, Detroit has 72 * 15 ants = 1080 ants\nCharleston has 75 times as many ants as Detroit, which is 75 * 1080 ants = 81000 ants\nTogether, the three have 15 ants + 81000 ants + 1080 ants = 82095 ants",
+    "final_answer": "82095"
+  },
+  {
+    "question": "Anna is downloading a 20 GB file. Normally she can download 4 GB/minute, but 50% of the way through the download, her computer forces a restart to install updates, which takes 12 minutes. Then Anna has to restart the download from the beginning. How long does it take to download the file?",
+    "solution": "First find how many gigabytes are in 50% of the file: 20 GB * 50% = 10 GB\nThen divide that number by the download rate to find the time until her computer restarts: 10 GB / 4 GB/minute = 2 minutes\nThen find the time to download the whole file after the restart: 20 GB / 4 GB/minute = 5 minutes\nThen add the time to download 50% of the file, to download the whole file, and to wait for her computer to update: 2 minutes + 5 minutes + 12 minutes = 19 minutes",
+    "final_answer": "19"
+  },
+  {
+    "question": "Alex drives for 5 hours at a speed of 76 mph and then turns around because he realizes he forgot something very important at home.  He tries to get home in 7 hours but spends the first 6 hours in standstill traffic.  He spends the next half-hour driving at a speed of 84 mph, before being able to drive the remaining time of the 7 hours going at 90 mph.  How far is he from home at the end of those 7 hours?",
+    "solution": "When he turned around he was 5*76=380 miles from home\nHe was only able to drive 7-6=1 hours in the first 7 hours\nIn half an hour he goes 84*.5=42 miles\nHe then drives another 1-.5=0.5 hours\nIn that time he goes 90*0.5=45 miles\nSo he drove 45+42=87 miles\nSo he is 380-87=293 miles away from home",
+    "final_answer": "293"
+  },
+  {
+    "question": "Jessica's rate per hour for the first 35 hours she works each week is $15. She also receives an overtime pay of 1.5 times her regular hourly rate. If Jessica worked for 45 hours this week, how much are her earnings for this week?",
+    "solution": "Jessica is entitled to 45 - 35 = 10 hours overtime pay.\nHer hourly rate for the overtime pay is $15 x 1.5 = $22.\nSo, Jessica will receive $22 x 10 = $220 for overtime pay.\nHer regular weekly earning is $15 x 35 = $525.\nThus, Jessica will receive a total of $525 + $220 = $745 for this week's work.",
+    "final_answer": "745"
+  },
+  {
+    "question": "A new program had 8 downloads in the first month. The number of downloads in the second month was 35 times as many as the downloads in the first month, but then reduced by 14% in the third month. How many downloads did the program have total over the three months?",
+    "solution": "The number of downloads of the program in the second month increased to 35*8 = 280\nIn the first two months, the total number of downloads of the program was 280+8 = 288\nIn the third month, the number of downloads of the program reduced by 14/100*280 = 39\nThere were 280-39 = 241 downloads in the third month.\nIn the three months, the total number of downloads of the program was 241+288 = 529",
+    "final_answer": "529"
+  },
+  {
+    "question": "Ashley went to the bakery and bought various types of pastries. She bought 5 dozen donuts which cost $12 per dozen, 8 dozen mini cupcakes which cost $7 per dozen, and 6 dozen cream puffs for $10 per dozen. How much was the total cost?\n\n#variables:\n- name = sample(names)\n- x = range(0, 100)\n- pastry1 = sample([\"donuts\", \"mini cupcakes\", \"mini cheesecakes\", \"eclairs\", \"croissants\", \"cinnamon rolls\", \"cream puffs\"])\n- y = range(0, 100)\n- z = range(0, 100)\n- pastry2 = sample([\"donuts\", \"mini cupcakes\", \"mini cheesecakes\", \"eclairs\", \"croissants\", \"cinnamon rolls\", \"cream puffs\"])\n- w = range(0, 100)\n- v = range(0, 100)\n- pastry3 = sample([\"donuts\", \"mini cupcakes\", \"mini cheesecakes\", \"eclairs\", \"croissants\", \"cinnamon rolls\", \"cream puffs\"])\n- u = range(0, 100)\n- ans = range(0, 100000)\n\n#conditions:\n- pastry1 != pastry2\n- pastry2 != pastry3\n- pastry1 != pastry3\n- ans = x * y + z * w + v * u",
+    "solution": "The total charge for the donuts was 5 x $12 = $60.\nThe total charge for the mini cupcakes was 8 x $7 = $56.\nThe total charge for the cream puffs was 6 x $10 = $60.\nTherefore the total amount Ashley paid for the pastries was $60 + $56 + $60 = $176.",
+    "final_answer": "176"
+  },
+  {
+    "question": "Tom is planting a pear tree. The tree will cost $66 to plant. Each year it will grow 5 pears, which he can sell for $2.00 each. It costs $4 a year to water and feed the tree. How many years will it take before he starts earning money on the pear tree?",
+    "solution": "He makes $10 selling pears each year because 5 x 2.00 = 10\nHe earns $6 each year from the pear tree because 10 - 4 = 6\nIt will take 11 years to earn enough to pay off the tree because 66 / 6 = 11\nHe will make money in year 12 because 11 + 1 = 12",
+    "final_answer": "12"
+  },
+  {
+    "question": "Alice is a door-to-door saleswoman. She sold a third of her blenders at the orange house, 72 more to the green house, and half of what was left at the red house. If Alice has 16 blenders left, how many did she start with?",
+    "solution": "First multiply the 16 remaining blenders by two to find out how many Alice had before she visited the red house: 16 * 2 = 32\nThen add 72 to figure out how many blenders she had before visiting the green house: 32 + 72 = 104\nNow we know that 2/3 * x = 104, where x is the number of blenders Alice started with. We can find x by dividing each side of the equation by 2/3, which produces x = 156",
+    "final_answer": "156"
+  },
+  {
+    "question": "In a dance class of 20 students, 50% enrolled in contemporary dance, 50% of the remaining enrolled in jazz dance, and the rest enrolled in ballroom dance. What percentage of the entire students enrolled in ballroom dance?",
+    "solution": "There are 20 x 50/100 = 10 students who enrolled in contemporary dance.\nSo, 20 - 10 = 10 students are enrolled in either jazz or ballroom dance.\nThere are 10 x 50/100 = 5 students who enrolled in jazz dance.\nHence, 10 - 5 = 5 students enrolled in hip-hop dance.\nThis is 5/20 x 100% = 25% of the entire students.",
+    "final_answer": "25"
+  },
+  {
+    "question": "A merchant wants to make a choice of purchase between 2 purchase plans: books worth $6000 or stationery worth $8000. His financial advisor speculates that the books market will go up 6.0% while the stationery market will rise 1.5% within the same year. If the merchant is looking to maximize profit at the end of this year by making a choice, how much profit would this be?",
+    "solution": "If he purchases books, he will make a profit of 6.0% which is $6000*(6.0/100) = $360\nIf he purchases stationery, he will make a profit of 1.5% which is $8000*(1.5/100) = $120\nIf he wants to maximize profit, since $360 > $120, he will choose to purchase books, thereby making a profit of $360",
+    "final_answer": "360"
+  },
+  {
+    "question": "Two trucks leave Kansas City at the same time. They begin traveling westward, both traveling for 457 meters. The next day, they travel northwards, covering 538 meters. What's the distance covered by each truck in the two days?",
+    "solution": "On the first day, the trucks covered 2 trucks * 457 meters/truck = 914 meters together.\nThey also covered 538 meters/truck * 2 trucks = 1076 meters together on the second day.\nThe combined distance the two trucks covered in the two days is 1076 meters + 914 meters = 1990 meters\nThe average distance for the two days is 1990 meters / 2 trucks = 995 meters/truck",
+    "final_answer": "995"
+  },
+  {
+    "question": "Alexa gets paid $24 per hour to teach and $15 to be a gymnastics coach. If she works 48 weeks a year, 35 hours a week as a teacher and 20 hours a week as a coach, what's her annual salary?",
+    "solution": "First find the total amount Alexa makes per week teaching: $24/hour * 35 hours/week = $840/week\nThen find the total amount Alexa makes per week coaching: $15/hour * 20 hours/week = $300/week\nThen add those two amounts to find the total amount Alexa makes per week: $840/week + $300/week = $1140/week\nThen multiply that number by the number of weeks Alexa works in a year to find her annual salary: $1140/week * 48 weeks/year = $54720",
+    "final_answer": "$54720"
+  },
+  {
+    "question": "Anna makes a 9 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 16 weeks?",
+    "solution": "She eats 9 eggs every day and there are 7 days in a week so she eats 9*7 = 63 eggs a week\nAfter 16 weeks she will have eaten 16*63 = 1008 eggs\nThere are 12 eggs in 1 dozen and she'll eat 1008 eggs so that's 1008/12 = 84 dozen eggs",
+    "final_answer": "84"
+  },
+  {
+    "question": "Marissa is hiking a 72-mile trail. She took 1 hour to walk the first 19 miles, then another hour to walk the next 17 miles. If she wants her average speed to be 9 miles per hour, what speed (in miles per hour) does she need to walk the remaining distance?",
+    "solution": "First figure out how many hours it takes to hike a 72-mile trail at 9 mph by dividing the distance by the speed: 72 miles / 9 mph = 8 hours\nNext subtract the time Marissa already spent walking to find out how much time she has left: 8 hours - 1 hour - 1 hour = 6 hours\nNow figure out how much distance she has left by subtracting the distance she already traveled from the total distance: 72 miles - 19 miles - 17 miles = 36 miles\nNow divide the remaining distance by the remaining time to find out how fast in miles per hour Marissa has to travel: 36 miles / 6 hours = 6 mph",
+    "final_answer": "6"
+  }
+]

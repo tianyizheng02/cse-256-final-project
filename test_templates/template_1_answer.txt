@@ -1,0 +1,3 @@
+It takes {x}/2={int(x / 2)} bolt of {color2} fiber
+So the total amount of fabric is {x}+{int(x / 2)}={ans} bolts of fabric
+#### {ans}

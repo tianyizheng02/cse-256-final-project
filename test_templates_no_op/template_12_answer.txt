@@ -1,0 +1,10 @@
+We don't need to use the information that {name}'s previous {fruit} tree died {v} {time}s after planting because for this problem we only care about {name}'s current {fruit} tree, not his previous tree.
+We need to use the information that the current tree will cost ${x} to plant and ${w} per {time} to water and feed because these amounts contribute to {name}'s costs.
+We need to use the information that the current tree will grow {y} {fruit}s per {time} because this affects how much profit he will make per {time}.
+We need to use the information that he can sell {fruit}s for ${z / 100} each in order to determine how much profit he will make per {time}.
+
+He makes ${int(y * z / 100)} selling {fruit}s each {time} because {y} x {z / 100} = {int(y * z / 100)}
+He earns ${int(y * z / 100 - w)} each {time} from the {fruit} tree because {int(y * z / 100)} - {w} = {int(y * z / 100 - w)}
+It will take {int(x / (y * z / 100 - w))} {time}s to earn enough to pay off the tree because {x} / {int(y * z / 100 - w)} = {int(x / (y * z / 100 - w))}
+He will make money in {time} {ans} because {int(x / (y * z / 100 - w))} + 1 = {ans}
+#### {ans}

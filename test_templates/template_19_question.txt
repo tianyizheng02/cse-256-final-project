@@ -1,0 +1,16 @@
+{name} is hiking a {x}-mile trail. She took 1 hour to walk the first {y} miles, then another hour to walk the next {z} miles. If she wants her average speed to be {w} miles per hour, what speed (in miles per hour) does she need to walk the remaining distance?
+
+#variables:
+- name = sample(names)
+- x = range(2, 100)
+- y = range(2, 100)
+- z = range(2, 100)
+- w = range(2, 100)
+- ans = range(0, 100)
+
+#conditions:
+- x % w == 0
+- x > 2 * w
+- x > y + z
+- (x - y - z) % (x / w - 2) == 0
+- ans * (x / w - 2) == x - y - z

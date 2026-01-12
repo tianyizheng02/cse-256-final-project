@@ -1,0 +1,11 @@
+We need to use the information that the class has {x} students in order to determine how many students are enrolled in each style of dance.
+We need to use the information that {y}% of students enrolled in {style1} dance and {z}% of the remaining students enrolled in {style2} dance in order to determine how many students are enrolled in {style1} dance and {style2} dance, respectively.
+We need to use the information that the remaining students all enrolled in {style3} dance because we want to determine the percentage of students enrolled in {style3} dance.
+We don't need to use the information that the class is currently half as big as last year because we only care about the enrollment in the current class, not last year's class.
+
+There are {x} x {y}/100 = {int(x * y / 100)} students who enrolled in {style1} dance.
+So, {x} - {int(x * y / 100)} = {int(x * (1 - y / 100))} students are enrolled in either {style2} or {style3} dance.
+There are {int(x * (1 - y / 100))} x {z}/100 = {int(x * (1 - y / 100) * z / 100)} students who enrolled in {style2} dance.
+Hence, {int(x * (1 - y / 100))} - {int(x * (1 - y / 100) * z / 100)} = {int(x * (1 - y / 100) * (1 - z / 100))} students enrolled in hip-hop dance.
+This is {int(x * (1 - y / 100) * (1 - z / 100))}/{x} x 100% = {ans}% of the entire students.
+#### {ans}

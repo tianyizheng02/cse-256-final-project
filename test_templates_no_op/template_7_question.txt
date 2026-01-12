@@ -1,0 +1,18 @@
+{name} is downloading a {x} GB file. Normally she can download {y} GB/minute, but {z}% of the way through the download, {computer} forces a restart to install updates, which takes {w} minutes. Then {name} has to restart the download from the beginning. If she upgrades her WiFi, her download speed will increase by {u} GB/minute. How long does it take to download the file?
+
+#variables:
+- name = sample(names)
+- computer = sample(["Windows", "macOS", "Linux", "her laptop", "her computer", "her PC"])
+- x = range(1, 1000)
+- y = range(1, 100)
+- z = range(0, 100)
+- w = range(0, 1000)
+- v = range(0, 1000)
+- u = range(1, 100)
+- ans = range(0, 10000000)
+
+#conditions:
+- x % y == 0
+- v == x * z / 100
+- v % y == 0
+- ans == v / y + x / y + w

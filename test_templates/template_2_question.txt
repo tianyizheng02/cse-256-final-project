@@ -1,0 +1,13 @@
+{name} decides to try flipping a house.  He buys a house for ${x} and then puts in ${y} in repairs.  This increased the value of the house by {z}%.  How much profit did he make?
+
+#variables:
+- name = sample(names)
+- x = range(0, 1000000)
+- y = range(0, 1000000)
+- z = range(0, 1000)
+- ans = range(0, 10000)
+
+#conditions:
+- (x * z) % 100 == 0
+- x * z / 100 >= y
+- ans == x * z / 100 - y

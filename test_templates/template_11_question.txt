@@ -1,0 +1,20 @@
+{name} went to the bakery and bought various types of pastries. She bought {x} dozen {pastry1} which cost ${y} per dozen, {z} dozen {pastry2} which cost ${w} per dozen, and {v} dozen {pastry3} for ${u} per dozen. How much was the total cost?
+
+#variables:
+- name = sample(names)
+- x = range(0, 100)
+- pastry1 = sample(["donuts", "mini cupcakes", "mini cheesecakes", "eclairs", "croissants", "cinnamon rolls", "cream puffs"])
+- y = range(0, 100)
+- z = range(0, 100)
+- pastry2 = sample(["donuts", "mini cupcakes", "mini cheesecakes", "eclairs", "croissants", "cinnamon rolls", "cream puffs"])
+- w = range(0, 100)
+- v = range(0, 100)
+- pastry3 = sample(["donuts", "mini cupcakes", "mini cheesecakes", "eclairs", "croissants", "cinnamon rolls", "cream puffs"])
+- u = range(0, 100)
+- ans = range(0, 100000)
+
+#conditions:
+- pastry1 != pastry2
+- pastry2 != pastry3
+- pastry1 != pastry3
+- ans = x * y + z * w + v * u

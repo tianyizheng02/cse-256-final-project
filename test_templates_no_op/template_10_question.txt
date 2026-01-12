@@ -1,0 +1,11 @@
+A new program had {x} downloads in the first month. The number of downloads in the second month was {y} times as many as the downloads in the first month, but then reduced by {z}% in the third month. Unfortunately, a malicious hack of the host website completely wiped the recorded download count for the program. How many downloads did the program have total over the three months?
+
+#variables:
+- x = range(0, 100)
+- y = range(0, 100)
+- z = range(0, 100)
+- ans = range(0, 10000)
+
+#conditions:
+- x * y * z / 100 == int(x * y * z / 100)
+- ans = x + x * y + (x * y - x * y * z / 100)

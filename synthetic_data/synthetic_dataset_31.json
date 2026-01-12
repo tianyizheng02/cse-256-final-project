@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Linda\u2019s ducks lay 90 eggs per day. She eats 20 for breakfast every morning and bakes muffins for her friends every day with 30. She sells the remainder at the farmers' market daily for $5 per fresh duck egg. How much in dollars does she make every day at the farmers' market?",
+    "solution": "Linda sells 90 - 20 - 30 = 40 duck eggs a day.\nShe makes 40 * 5 = $200 every day at the farmer\u2019s market.",
+    "final_answer": "200"
+  },
+  {
+    "question": "A coat takes 80 bolts of yellow fiber and half that much brown fiber.  How many bolts in total does it take?",
+    "solution": "It takes 80/2=40 bolt of brown fiber\nSo the total amount of fabric is 80+40=120 bolts of fabric",
+    "final_answer": "120"
+  },
+  {
+    "question": "Oliver decides to try flipping a house.  He buys a house for $200000 and then puts in $20000 in repairs.  This increased the value of the house by 20%.  How much profit did he make?",
+    "solution": "The cost of the house and repairs came out to 200000+20000=$220000\nHe increased the value of the house by 200000*0.2=40000\nSo the new value of the house is 40000+200000=$240000\nSo he made a profit of 240000-220000=$20000",
+    "final_answer": "20000"
+  },
+  {
+    "question": "John decides to run 3 sprints 4 times a week.  He runs 25 meters each sprint.  How many total meters does he run a week?",
+    "solution": "He sprints 3*4=12 times\nSo he runs 12*25=300 meters",
+    "final_answer": "300"
+  },
+  {
+    "question": "Every day, Emily feeds each of her chickens 9 cups of mixed chicken feed, containing seeds, mealworms and vegetables to help keep them healthy. She gives the chickens their feed in three separate meals. In the morning, she gives her flock of chickens 60 cups of feed. In the afternoon, she gives her chickens another 340 cups of feed. How many cups of feed does she need to give her chickens in the final meal of the day if the size of Emily's flock is 50 chickens?",
+    "solution": "If each chicken eats 9 cups of feed per day, then for 50 chickens they would need 9*50=450 cups of feed per day.\nIf she feeds the flock 60 cups of feed in the morning, and 340 cups in the afternoon, then the final meal would require 450-60-340=50 cups of chicken feed.",
+    "final_answer": "50"
+  },
+  {
+    "question": "Alex went to the store to buy glasses for his new apartment. One glass costs $42, but every second glass costs only 50% of the price. Alex wants to buy 6 glasses. How much does he need to pay for them?",
+    "solution": "The discount price of one glass is 50/100 * 42 = $21.\nIf every second glass is cheaper, that means Alex is going to buy 6 / 2 = 3 cheaper glasses.\nSo for the cheaper glasses, Alex is going to pay 3 * 21 = $63.\nAnd for the regular-priced glasses, Alex will pay 3 * 42 = $126.\nSo in total Alex needs to pay 63 + 126 = $189 for the glasses he wants to buy.",
+    "final_answer": "189"
+  },
+  {
+    "question": "Hanover has 8 times as many trains as Toronto. Toronto has 9 times as many trains as Seattle. How many trains do Hanover, Toronto, and Seattle have together if Seattle has 4 trains?",
+    "solution": "If Seattle has 4 trains, Toronto has 9 * 4 trains = 36 trains\nHanover has 8 times as many trains as Toronto, which is 8 * 36 trains = 288 trains\nTogether, the three have 4 trains + 288 trains + 36 trains = 328 trains",
+    "final_answer": "328"
+  },
+  {
+    "question": "Alice is downloading a 50 GB file. Normally she can download 5 GB/minute, but 60% of the way through the download, her computer forces a restart to install updates, which takes 30 minutes. Then Alice has to restart the download from the beginning. How long does it take to download the file?",
+    "solution": "First find how many gigabytes are in 60% of the file: 50 GB * 60% = 30 GB\nThen divide that number by the download rate to find the time until her computer restarts: 30 GB / 5 GB/minute = 6 minutes\nThen find the time to download the whole file after the restart: 50 GB / 5 GB/minute = 10 minutes\nThen add the time to download 60% of the file, to download the whole file, and to wait for her computer to update: 6 minutes + 10 minutes + 30 minutes = 46 minutes",
+    "final_answer": "46"
+  },
+  {
+    "question": "Alice drives for 8 hours at a speed of 50 mph and then turns around because he realizes he forgot something very important at home.  He tries to get home in 9 hours but spends the first 7 hours in standstill traffic.  He spends the next half-hour driving at a speed of 20 mph, before being able to drive the remaining time of the 9 hours going at 40 mph.  How far is he from home at the end of those 9 hours?",
+    "solution": "When he turned around he was 8*50=400 miles from home\nHe was only able to drive 9-7=2 hours in the first 9 hours\nIn half an hour he goes 20*.5=10 miles\nHe then drives another 2-.5=1.5 hours\nIn that time he goes 40*1.5=60 miles\nSo he drove 60+10=70 miles\nSo he is 400-70=330 miles away from home",
+    "final_answer": "330"
+  },
+  {
+    "question": "Emma's rate per hour for the first 20 hours she works each week is $25. She also receives an overtime pay of 1.5 times her regular hourly rate. If Emma worked for 35 hours this week, how much are her earnings for this week?",
+    "solution": "Emma is entitled to 35 - 20 = 15 hours overtime pay.\nHer hourly rate for the overtime pay is $25 x 1.5 = $37.\nSo, Emma will receive $37 x 15 = $555 for overtime pay.\nHer regular weekly earning is $25 x 20 = $500.\nThus, Emma will receive a total of $500 + $555 = $1055 for this week's work.",
+    "final_answer": "1055"
+  },
+  {
+    "question": "A new program had 7 downloads in the first month. The number of downloads in the second month was 9 times as many as the downloads in the first month, but then reduced by 10% in the third month. How many downloads did the program have total over the three months?",
+    "solution": "The number of downloads of the program in the second month increased to 9*7 = 63\nIn the first two months, the total number of downloads of the program was 63+7 = 70\nIn the third month, the number of downloads of the program reduced by 10/100*63 = 6\nThere were 63-6 = 57 downloads in the third month.\nIn the three months, the total number of downloads of the program was 57+70 = 127",
+    "final_answer": "127"
+  },
+  {
+    "question": "Jasmine went to the bakery and bought various types of pastries. She bought 3 dozen donuts which cost $8 per dozen, 5 dozen mini cupcakes which cost $7 per dozen, and 2 dozen croissants for $6 per dozen. How much was the total cost?",
+    "solution": "The total charge for the donuts was 3 x $8 = $24.\nThe total charge for the mini cupcakes was 5 x $7 = $35.\nThe total charge for the croissants was 2 x $6 = $12.\nTherefore the total amount Jasmine paid for the pastries was $24 + $35 + $12 = $71.",
+    "final_answer": "71"
+  },
+  {
+    "question": "Oliver is planting a lime tree. The tree will cost $25 to plant. Each week it will grow 50 limes, which he can sell for $0.80 each. It costs $15 a week to water and feed the tree. How many weeks will it take before he starts earning money on the lime tree?",
+    "solution": "He makes $40 selling limes each week because 50 x 0.80 = 40\nHe earns $25 each week from the lime tree because 40 - 15 = 25\nIt will take 1 weeks to earn enough to pay off the tree because 25 / 25 = 1\nHe will make money in week 2 because 1 + 1 = 2",
+    "final_answer": "2"
+  },
+  {
+    "question": "Alice is a door-to-door saleswoman. She sold a third of her blenders at the blue house, 92 more to the green house, and half of what was left at the purple house. If Alice has 64 blenders left, how many did she start with?",
+    "solution": "First multiply the 64 remaining blenders by two to find out how many Alice had before she visited the purple house: 64 * 2 = 128\nThen add 92 to figure out how many blenders she had before visiting the green house: 128 + 92 = 220\nNow we know that 2/3 * x = 220, where x is the number of blenders Alice started with. We can find x by dividing each side of the equation by 2/3, which produces x = 330",
+    "final_answer": "330"
+  },
+  {
+    "question": "In a dance class of 80 students, 30% enrolled in tap dance, 50% of the remaining enrolled in ballroom dance, and the rest enrolled in jazz dance. What percentage of the entire students enrolled in jazz dance?",
+    "solution": "There are 80 x 30/100 = 24 students who enrolled in tap dance.\nSo, 80 - 24 = 56 students are enrolled in either ballroom or jazz dance.\nThere are 56 x 50/100 = 28 students who enrolled in ballroom dance.\nHence, 56 - 28 = 28 students enrolled in hip-hop dance.\nThis is 28/80 x 100% = 35% of the entire students.",
+    "final_answer": "35"
+  },
+  {
+    "question": "A merchant wants to make a choice of purchase between 2 purchase plans: jewelry worth $6500 or beauty products worth $7200. His financial advisor speculates that the jewelry market will go up 30.0% while the beauty products market will rise 25.0% within the same week. If the merchant is looking to maximize profit at the end of this week by making a choice, how much profit would this be?",
+    "solution": "If he purchases jewelry, he will make a profit of 30.0% which is $6500*(30.0/100) = $1950\nIf he purchases beauty products, he will make a profit of 25.0% which is $7200*(25.0/100) = $1800\nIf he wants to maximize profit, since $1950 > $1800, he will choose to purchase jewelry, thereby making a profit of $1950",
+    "final_answer": "1950"
+  },
+  {
+    "question": "Two cars leave Amarillo at the same time. They begin traveling westward, both traveling for 320 miles. The next day, they travel northwards, covering 180 miles. What's the distance covered by each car in the two days?",
+    "solution": "On the first day, the cars covered 2 cars * 320 miles/car = 640 miles together.\nThey also covered 180 miles/car * 2 cars = 360 miles together on the second day.\nThe combined distance the two cars covered in the two days is 360 miles + 640 miles = 1000 miles\nThe average distance for the two days is 1000 miles / 2 cars = 500 miles/car",
+    "final_answer": "500"
+  },
+  {
+    "question": "Samantha gets paid $37 per hour to teach and $15 to be a track and field coach. If she works 30 weeks a year, 12 hours a week as a teacher and 5 hours a week as a coach, what's her annual salary?",
+    "solution": "First find the total amount Samantha makes per week teaching: $37/hour * 12 hours/week = $444/week\nThen find the total amount Samantha makes per week coaching: $15/hour * 5 hours/week = $75/week\nThen add those two amounts to find the total amount Samantha makes per week: $444/week + $75/week = $519/week\nThen multiply that number by the number of weeks Samantha works in a year to find her annual salary: $519/week * 30 weeks/year = $15570",
+    "final_answer": "15570"
+  },
+  {
+    "question": "Emma makes a 24 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 10 weeks?",
+    "solution": "She eats 24 eggs every day and there are 7 days in a week so she eats 24*7 = 168 eggs a week\nAfter 10 weeks she will have eaten 10*168 = 1680 eggs\nThere are 12 eggs in 1 dozen and she'll eat 1680 eggs so that's 1680/12 = 140 dozen eggs",
+    "final_answer": "140"
+  },
+  {
+    "question": "Emma is hiking a 72-mile trail. She took 1 hour to walk the first 30 miles, then another hour to walk the next 9 miles. If she wants her average speed to be 12 miles per hour, what speed (in miles per hour) does she need to walk the remaining distance?",
+    "solution": "First figure out how many hours it takes to hike a 72-mile trail at 12 mph by dividing the distance by the speed: 72 miles / 12 mph = 6 hours\nNext subtract the time Emma already spent walking to find out how much time she has left: 6 hours - 1 hour - 1 hour = 4 hours\nNow figure out how much distance she has left by subtracting the distance she already traveled from the total distance: 72 miles - 30 miles - 9 miles = 33 miles\nNow divide the remaining distance by the remaining time to find out how fast in miles per hour Marissa has to travel: 33 miles / 4 hours = 8 mph",
+    "final_answer": "8"
+  }
+]

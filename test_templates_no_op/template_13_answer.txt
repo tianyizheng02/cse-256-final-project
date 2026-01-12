@@ -1,0 +1,8 @@
+We need to use the information that {name} sold a third of her {things} to her first house, {x} more {things} to her second house, and half of what was left to her third house in order to determine how many {things} she sold altogether.
+We need to use the information that she has {y} {things} left over because this amount contributes to the number of {things} that she started with.
+We don't need to use the information that she will receive {z} more {things} later to sell because she didn't start with those {z} {things}.
+
+First multiply the {y} remaining {things} by two to find out how many {name} had before she visited the {color3} house: {y} * 2 = {y * 2}
+Then add {x} to figure out how many {things} she had before visiting the {color2} house: {y * 2} + {x} = {y * 2 + x}
+Now we know that 2/3 * x = {y * 2 + x}, where x is the number of {things} {name} started with. We can find x by dividing each side of the equation by 2/3, which produces x = {ans}
+#### {ans}

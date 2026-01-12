@@ -1,0 +1,15 @@
+{name} gets paid ${x} per hour to teach and ${y} to be a {sport} coach. If she works {z} weeks a year, {w} hours a week as a teacher and {v} hours a week as a coach, what's her annual salary?
+
+#variables:
+- name = sample(names)
+- sport = sample(["cheerleading", "tennis", "track and field", "football", "lacrosse", "swim", "baseball", "gymnastics"])
+- x = range(0, 100)
+- y = range(0, 100)
+- z = range(0, 52)
+- w = range(0, 100)
+- v = range(0, 100)
+- ans = range(0, 2000000)
+
+#conditions:
+- w + v <= 168
+- ans == z * (x * w + y * v)

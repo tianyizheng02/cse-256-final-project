@@ -1,0 +1,3 @@
+If each {bird} eats {x} cups of feed per day, then for {w} {bird}s they would need {x}*{w}={x * w} cups of feed per day.
+If she feeds the flock {y} cups of feed in the morning, and {z} cups in the afternoon, then the final meal would require {x * w}-{y}-{z}={ans} cups of chicken feed.
+#### {ans}

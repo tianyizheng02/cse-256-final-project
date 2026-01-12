@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Tina\u2019s chicken lay 25 eggs per day. She eats 5 for breakfast every morning and bakes muffins for her friends every day with 10. She sells the remainder at the farmers' market daily for $3 per fresh chicken egg. How much in dollars does she make every day at the farmers' market?",
+    "solution": "Tina sells 25 - 5 - 10 = 10 chicken eggs a day.\nShe makes 10 * 3 = $30 every day at the farmer\u2019s market.",
+    "final_answer": "30"
+  },
+  {
+    "question": "Sarah is downloading a 300 GB file. Normally she can download 25 GB/minute, but 40% of the way through the download, her laptop forces a restart to install updates, which takes 50 minutes. Then Sarah has to restart the download from the beginning. How long does it take to download the file?",
+    "solution": "First find how many gigabytes are in 40% of the file: 300 GB * 40% = 120 GB\nThen divide that number by the download rate to find the time until her laptop restarts: 120 GB / 25 GB/minute = 4 minutes\nThen find the time to download the whole file after the restart: 300 GB / 25 GB/minute = 12 minutes\nThen add the time to download 40% of the file, to download the whole file, and to wait for her laptop to update: 4 minutes + 12 minutes + 50 minutes = 66 minutes",
+    "final_answer": "66"
+  },
+  {
+    "question": "Alice's rate per hour for the first 40 hours she works each week is $15. She also receives an overtime pay of 1.5 times her regular hourly rate. If Alice worked for 45 hours this week, how much are her earnings for this week?",
+    "solution": "Alice is entitled to 45 - 40 = 5 hours overtime pay.\nHer hourly rate for the overtime pay is $15 x 1.5 = $22.\nSo, Alice will receive $22 x 5 = $110 for overtime pay.\nHer regular weekly earning is $15 x 40 = $600.\nThus, Alice will receive a total of $600 + $110 = $710 for this week's work.",
+    "final_answer": "710"
+  },
+  {
+    "question": "Emma went to the bakery and bought various types of pastries. She bought 5 dozen donuts which cost $3 per dozen, 8 dozen croissants which cost $7 per dozen, and 10 dozen eclairs for $4 per dozen. How much was the total cost?",
+    "solution": "The total charge for the donuts was 5 x $3 = $15.\nThe total charge for the croissants was 8 x $7 = $56.\nThe total charge for the eclairs was 10 x $4 = $40.\nTherefore the total amount Emma paid for the pastries was $15 + $56 + $40 = $111.",
+    "final_answer": "111"
+  },
+  {
+    "question": "Eric is planting a lemon tree. The tree will cost $40 to plant. Each week it will grow 16 lemons, which he can sell for $0.25 each. It costs $1 a week to water and feed the tree. How many weeks will it take before he starts earning money on the lemon tree?",
+    "solution": "He makes $4 selling lemons each week because 16 x 0.25 = 4\nHe earns $3 each week from the lemon tree because 4 - 1 = 3\nIt will take 13 weeks to earn enough to pay off the tree because 40 / 3 = 13\nHe will make money in week 14 because 13 + 1 = 14",
+    "final_answer": "14"
+  },
+  {
+    "question": "Lisa is a door-to-door saleswoman. She sold a third of her knives at the blue house, 32 more to the green house, and half of what was left at the red house. If Lisa has 16 knives left, how many did she start with?",
+    "solution": "First multiply the 16 remaining knives by two to find out how many Lisa had before she visited the red house: 16 * 2 = 32\nThen add 32 to figure out how many knives she had before visiting the green house: 32 + 32 = 64\nNow we know that 2/3 * x = 64, where x is the number of knives Lisa started with. We can find x by dividing each side of the equation by 2/3, which produces x = 96",
+    "final_answer": "96"
+  },
+  {
+    "question": "A merchant wants to make a choice of purchase between 2 purchase plans: electronic gadgets worth $4000 or beauty products worth $5000. His financial advisor speculates that the electronic gadgets market will go up 30% while the beauty products market will rise 40% within the same month. If the merchant is looking to maximize profit at the end of this month by making a choice, how much profit would this be?",
+    "solution": "If he purchases electronic gadgets, he will make a profit of 30.0% which is $4000*(30.0/100) = $1200\nIf he purchases beauty products, he will make a profit of 40.0% which is $5000*(40.0/100) = $2000\nIf he wants to maximize profit, since $2000 > $1200, he will choose to purchase beauty products, thereby making a profit of $2000",
+    "final_answer": "2000"
+  },
+  {
+    "question": "Amelia is hiking a 96-mile trail. She took 1 hour to walk the first 18 miles, then another hour to walk the next 30 miles. If she wants her average speed to be 24 miles per hour, what speed (in miles per hour) does she need to walk the remaining distance?",
+    "solution": "First figure out how many hours it takes to hike a 96-mile trail at 24 mph by dividing the distance by the speed: 96 miles / 24 mph = 4 hours\nNext subtract the time Amelia already spent walking to find out how much time she has left: 4 hours - 1 hour - 1 hour = 2 hours\nNow figure out how much distance she has left by subtracting the distance she already traveled from the total distance: 96 miles - 18 miles - 30 miles = 48 miles\nNow divide the remaining distance by the remaining time to find out how fast in miles per hour Marissa has to travel: 48 miles / 2 hours = 24 mph",
+    "final_answer": "24"
+  }
+]

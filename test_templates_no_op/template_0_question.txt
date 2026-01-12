@@ -1,0 +1,15 @@
+{name}’s {bird}s lay {x} eggs per day. She eats {y} for breakfast every morning and bakes muffins for her friends every day with {z}. She sells the remainder at the farmers' market daily for ${w} per fresh {bird} egg. The amount of money she makes now is {v} times what she made per day last week. How much in dollars does she make every day at the farmers' market?
+
+#variables:
+- name = sample(names)
+- bird = sample(["duck", "chicken", "hen", "quail"])
+- x = range(2, 100)
+- y = range(1, 100)
+- z = range(1, 100)
+- w = range(1, 100)
+- v = range(2, 10)
+- ans = range(0, 10000)
+
+#conditions:
+- x >= y + z
+- ans == w * (x - y - z)

@@ -1,0 +1,5 @@
+He makes ${int(y * z / 100)} selling {fruit}s each {time} because {y} x {z / 100} = {int(y * z / 100)}
+He earns ${int(y * z / 100 - w)} each {time} from the {fruit} tree because {int(y * z / 100)} - {w} = {int(y * z / 100 - w)}
+It will take {int(x / (y * z / 100 - w))} {time}s to earn enough to pay off the tree because {x} / {int(y * z / 100 - w)} = {int(x / (y * z / 100 - w))}
+He will make money in {time} {ans} because {int(x / (y * z / 100 - w))} + 1 = {ans}
+#### {ans}

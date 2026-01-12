@@ -1,0 +1,8 @@
+We need to use the information that {city1} has {x} times as many {things} as {city2} and {city2} has {y} times as many {things} as {city3} because we want to determine how many {things} the three cities have together.
+We need to use the information that {city3} has {z} {things} in order to determine how many {things} each of the other two cities has.
+We don't need to use the information that {city1} has twice as many {things} as it did last year because we only care about determining how many {things} the three cities have now.
+
+If {city3} has {z} {things}, {city2} has {y} * {z} {things} = {y * z} {things}
+{city1} has {x} times as many {things} as {city2}, which is {x} * {y * z} {things} = {x * y * z} {things}
+Together, the three have {z} {things} + {x * y * z} {things} + {y * z} {things} = {ans} {things}
+#### {ans}

@@ -1,0 +1,4 @@
+If {city3} has {z} {things}, {city2} has {y} * {z} {things} = {y * z} {things}
+{city1} has {x} times as many {things} as {city2}, which is {x} * {y * z} {things} = {x * y * z} {things}
+Together, the three have {z} {things} + {x * y * z} {things} + {y * z} {things} = {ans} {things}
+#### {ans}

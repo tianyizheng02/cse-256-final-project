@@ -1,0 +1,14 @@
+{name} went to the store to buy glasses for his new apartment. The store is currently having a Black Friday sale, so the current price of the glasses is only half their usual sale price. One glass costs ${x}, but every second glass costs only {y}% of the price. {name} wants to buy {z} glasses. How much does he need to pay for them?
+
+#variables:
+- name = sample(names)
+- x = range(0, 100)
+- y = range(0, 100)
+- z = range(0, 100)
+- w = range(0, 100)
+- ans = range(0, 10000)
+
+#conditions:
+- z % 2 == 0
+- w == y / 100 * x
+- ans == z / 2 * (w + x)

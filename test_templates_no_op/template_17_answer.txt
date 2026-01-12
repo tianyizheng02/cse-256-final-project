@@ -1,0 +1,9 @@
+We need to use the information that {name} gets paid ${x} per hour to teach and ${y} per hour to coach in order to determine how much she makes per week from each position.
+We don't need to use the information that she spends half of her hours as a teacher grading assignments because she gets paid the same rate for all her hours as a teacher.
+We need to use the information that she works {z} weeks per year, {w} hours per week as a teacher and {v} hours per week as a coach in order to determine how many hours she works per year.
+
+First find the total amount {name} makes per week teaching: ${x}/hour * {w} hours/week = ${x * w}/week
+Then find the total amount {name} makes per week coaching: ${y}/hour * {v} hours/week = ${y * v}/week
+Then add those two amounts to find the total amount {name} makes per week: ${x * w}/week + ${y * v}/week = ${x * w + y * v}/week
+Then multiply that number by the number of weeks {name} works in a year to find her annual salary: ${x * w + y * v}/week * {z} weeks/year = ${ans}
+#### {ans}

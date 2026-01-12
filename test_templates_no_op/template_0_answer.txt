@@ -1,0 +1,7 @@
+We need to use the information of {x} eggs laid per day, {y} eggs eaten every morning, and {z} eggs used to bake muffins every day in order to determine how many eggs {name} sells per day.
+We need to use the information of ${w} per egg to determine how much money {name} makes every day from selling her eggs.
+We don't need to use the information that {name} makes {v} times what she made per day last week because we only care about determining how much she makes now.
+
+{name} sells {x} - {y} - {z} = {x - y - z} {bird} eggs a day.
+She makes {x - y - z} * {w} = ${ans} every day at the farmer’s market.
+#### {ans}

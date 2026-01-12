@@ -1,0 +1,5 @@
+First figure out how many hours it takes to hike a {x}-mile trail at {w} mph by dividing the distance by the speed: {x} miles / {w} mph = {int(x / w)} hours
+Next subtract the time {name} already spent walking to find out how much time she has left: {int(x / w)} hours - 1 hour - 1 hour = {int(x / w - 2)} hours
+Now figure out how much distance she has left by subtracting the distance she already traveled from the total distance: {x} miles - {y} miles - {z} miles = {x - y - z} miles
+Now divide the remaining distance by the remaining time to find out how fast in miles per hour Marissa has to travel: {x - y - z} miles / {int(x / w - 2)} hours = {int(ans)} mph
+#### {int(ans)}

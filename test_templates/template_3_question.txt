@@ -1,0 +1,12 @@
+{name} decides to run {x} sprints {y} times a week.  He runs {z} {unit} each sprint.  How many total {unit} does he run a week?
+
+#variables:
+- name = sample(names)
+- unit = sample(["meters", "feet", "yards"])
+- x = range(2, 10)
+- y = range(2, 10)
+- z = range(2, 100)
+- ans = range(0, 10000)
+
+#conditions:
+- ans == x * y * z

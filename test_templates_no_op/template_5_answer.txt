@@ -1,0 +1,11 @@
+We don't need to use the information that the glasses are currently half off because we only care about how much {name} will spend on glasses given the current price, not how much he would've spent given the usual sale price.
+We need to use the information of one glass costing ${x} in order to determine how much {name} will spend in total on the glasses.
+We need to use the information of every second glass costing {y}% of the given price because this affects how much he will spend in total on the glasses.
+We need to use the information that he wants to buy {z} glasses in order to determine how much he will spend in total on the glasses.
+
+The discount price of one glass is {y}/100 * {x} = ${int(w)}.
+If every second glass is cheaper, that means {name} is going to buy {z} / 2 = {z / 2} cheaper glasses.
+So for the cheaper glasses, {name} is going to pay {z / 2} * {int(w)} = ${int(z / 2 * w)}.
+And for the regular-priced glasses, {name} will pay {z / 2} * {x} = ${z / 2 * x}.
+So in total {name} needs to pay {int(z / 2 * w)} + {z / 2 * x} = ${ans} for the glasses he wants to buy.
+#### {ans}

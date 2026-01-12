@@ -1,0 +1,4 @@
+She eats {x} eggs every day and there are 7 days in a week so she eats {x}*7 = {x * 7} eggs a week
+After {y} weeks she will have eaten {y}*{x * 7} = {x * y * 7} eggs
+There are 12 eggs in 1 dozen and she'll eat {x * y * 7} eggs so that's {x * y * 7}/12 = {ans} dozen eggs
+#### {ans}

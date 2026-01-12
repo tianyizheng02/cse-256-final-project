@@ -1,0 +1,6 @@
+We need to use the information of {x} bolts of {color1} fiber and half that much {color2} fiber because both colors are needed to make a {clothing}.
+We don't need to use the information that the manufacturer is out of {color2} fiber because we only care about determining how much fiber is needed in general.
+
+It takes {x}/2={int(x / 2)} bolt of {color2} fiber
+So the total amount of fabric is {x}+{int(x / 2)}={ans} bolts of fabric
+#### {ans}

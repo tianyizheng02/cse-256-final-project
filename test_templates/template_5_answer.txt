@@ -1,0 +1,6 @@
+The discount price of one glass is {y}/100 * {x} = ${int(w)}.
+If every second glass is cheaper, that means {name} is going to buy {z} / 2 = {z / 2} cheaper glasses.
+So for the cheaper glasses, {name} is going to pay {z / 2} * {int(w)} = ${int(z / 2 * w)}.
+And for the regular-priced glasses, {name} will pay {z / 2} * {x} = ${z / 2 * x}.
+So in total {name} needs to pay {int(z / 2 * w)} + {z / 2 * x} = ${ans} for the glasses he wants to buy.
+#### {ans}

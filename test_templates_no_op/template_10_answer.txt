@@ -1,0 +1,9 @@
+We need to use the information that the program had {x} downloads in the first month, had {y} times as many downloads in the second month, and had a reduction of {z}% in the download count in the third month in order to determine how many downloads the program had in total for all three months.
+We don't need to use the information that the recorded download count for the program was wiped because that doesn't change the number of downloads that had already occurred before then.
+
+The number of downloads of the program in the second month increased to {y}*{x} = {y * x}
+In the first two months, the total number of downloads of the program was {y * x}+{x} = {y * x + x}
+In the third month, the number of downloads of the program reduced by {z}/100*{y * x} = {int(z / 100 * y * x)}
+There were {y * x}-{int(z / 100 * y * x)} = {int(y * x - z / 100 * y * x)} downloads in the third month.
+In the three months, the total number of downloads of the program was {int(y * x - z / 100 * y * x)}+{y * x + x} = {int(ans)}
+#### {int(ans)}

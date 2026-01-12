@@ -1,0 +1,25 @@
+A merchant wants to make a choice of purchase between 2 purchase plans: {things1} worth ${x} or {things2} worth ${y}. His financial advisor speculates that the {things1} market will go up {z / 10}% while the {things2} market will rise {w / 10}% within the same {unit}. If the merchant is looking to maximize profit at the end of this {unit} by making a choice, how much profit would this be?
+
+#variables:
+- things1 = sample(["jewelry", "electronic gadgets", "books", "furniture", "stationery", "beauty products"])
+- things2 = sample(["jewelry", "electronic gadgets", "books", "furniture", "stationery", "beauty products"])
+- unit = sample(["month", "week", "year"])
+- x = range(0, 10000)
+- y = range(0, 10000)
+- z = range(0, 1000)
+- w = range(0, 1000)
+- profit1 = range(0, 10000000)
+- profit2 = range(0, 10000000)
+- things3 = sample([things1, things2])
+- ans = range(0, 10000000)
+- other = range(0, 10000000)
+
+#conditions:
+- (x * z) % 1000 == 0
+- (y * w) % 1000 == 0
+- x * z != y * w
+- profit1 == (x * z / 1000) if (x * z > y * w) else (y * w / 1000)
+- profit2 == (y * w / 1000) if (x * z > y * w) else (x * z / 1000)
+- things3 == things1 if (profit1 > profit2) else things2
+- ans == max(profit1, profit2)
+- other == min(profit1, profit2)
